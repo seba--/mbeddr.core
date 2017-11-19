@@ -19,8 +19,6 @@
     <import index="55iy" ref="r:6bb35df6-a651-4174-a533-ca7006eccec8(com.mbeddr.mpsutil.inca.gp.structure)" />
     <import index="gcg1" ref="r:d6f14cc5-a2a7-4aaf-8f86-e35059edbf3b(com.mbeddr.mpsutil.inca.core.behavior)" />
     <import index="l0yr" ref="r:d7788ae3-4afe-431e-a7ca-f1369bead1e8(com.mbeddr.mpsutil.inca.gp.generator.template.main@generator)" />
-    <import index="uu1k" ref="r:5d05a0a1-0178-4953-8047-22b44c66dcde(com.mbeddr.mpsutil.inca.data.structure)" />
-    <import index="nk28" ref="r:c26e1b9d-8c52-4dd5-aa74-076b11122b73(com.mbeddr.mpsutil.inca.analysis.runtime.meta)" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -50,9 +48,6 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
@@ -157,13 +152,7 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
-      <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />
-      <concept id="1217960314443" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowMessageBase" flags="nn" index="2k5Stg">
-        <child id="1217960314448" name="messageText" index="2k5Stb" />
-        <child id="1217960407512" name="referenceNode" index="2k6f33" />
-      </concept>
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
-      <concept id="1217026863835" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOriginalInputModel" flags="nn" index="1st3f0" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
@@ -247,13 +236,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -261,9 +243,6 @@
       </concept>
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
-      </concept>
-      <concept id="1226511727824" name="jetbrains.mps.baseLanguage.collections.structure.SetType" flags="in" index="2hMVRd">
-        <child id="1226511765987" name="elementType" index="2hN53Y" />
       </concept>
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
@@ -289,14 +268,10 @@
         <child id="1197687026896" name="keyType" index="3rHrn6" />
         <child id="1197687035757" name="valueType" index="3rHtpV" />
       </concept>
-      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="bUwia" id="3oMuSXR7IsQ">
     <property role="TrG5h" value="funPatternLangReductions" />
-    <node concept="1puMqW" id="2Yoto85NW6n" role="1puA0r">
-      <ref role="1puQsG" node="2Yoto85N6xk" resolve="checkInvalidLatticeUsage" />
-    </node>
     <node concept="3aamgX" id="3oMuSXR7IsR" role="3acgRq">
       <ref role="30HIoZ" to="ebqt:3oMuSXR7kAP" resolve="EvalValue" />
       <node concept="gft3U" id="3oMuSXR7IsV" role="1lVwrX">
@@ -934,75 +909,6 @@
               <node concept="chp4Y" id="W0eiDpmljg" role="1dBWTz">
                 <ref role="cht4Q" to="ebqt:3oMuSXR7kAP" resolve="EvalValue" />
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1pmfR0" id="2Yoto85N6xk">
-    <property role="TrG5h" value="checkInvalidLatticeUsage" />
-    <property role="1v3f2W" value="pre_processing" />
-    <node concept="1pplIY" id="2Yoto85N6xl" role="1pqMTA">
-      <node concept="3clFbS" id="2Yoto85N6xm" role="2VODD2">
-        <node concept="1X3_iC" id="7DQRSikdWTd" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbJ" id="2Yoto85RrzY" role="8Wnug">
-            <node concept="3clFbS" id="2Yoto85Rr$0" role="3clFbx">
-              <node concept="3cpWs8" id="2Yoto85NEb0" role="3cqZAp">
-                <node concept="3cpWsn" id="2Yoto85NEb1" role="3cpWs9">
-                  <property role="TrG5h" value="annotations" />
-                  <property role="3TUv4t" value="true" />
-                  <node concept="2hMVRd" id="2Yoto85NEaW" role="1tU5fm">
-                    <node concept="3Tqbb2" id="2Yoto85NEaZ" role="2hN53Y">
-                      <ref role="ehGHo" to="uu1k:2A0WHmBhrvB" resolve="TypeConstructorTypeWrapper" />
-                    </node>
-                  </node>
-                  <node concept="2YIFZM" id="2Yoto85NEb2" role="33vP2m">
-                    <ref role="37wK5l" to="nk28:2Yoto85Nksu" resolve="getInvalidAnnotations" />
-                    <ref role="1Pybhc" to="nk28:2Yoto85N8Bd" resolve="LatticeUsageCheckerAccess" />
-                    <node concept="2OqwBi" id="2Yoto85R$F5" role="37wK5m">
-                      <node concept="1iwH7S" id="2Yoto85R$wu" role="2Oq$k0" />
-                      <node concept="1st3f0" id="2Yoto85R$Mh" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2Gpval" id="2Yoto85NEgo" role="3cqZAp">
-                <node concept="2GrKxI" id="2Yoto85NEgq" role="2Gsz3X">
-                  <property role="TrG5h" value="annotation" />
-                </node>
-                <node concept="37vLTw" id="2Yoto85NEhP" role="2GsD0m">
-                  <ref role="3cqZAo" node="2Yoto85NEb1" resolve="annotations" />
-                </node>
-                <node concept="3clFbS" id="2Yoto85NEgu" role="2LFqv$">
-                  <node concept="3clFbF" id="2Yoto85N80g" role="3cqZAp">
-                    <node concept="2OqwBi" id="2Yoto85N8t1" role="3clFbG">
-                      <node concept="1iwH7S" id="2Yoto85N80e" role="2Oq$k0" />
-                      <node concept="2k5nB$" id="2Yoto85N8xy" role="2OqNvi">
-                        <node concept="Xl_RD" id="2Yoto85NVPs" role="2k5Stb">
-                          <property role="Xl_RC" value="Inconsistent lattice ordering!" />
-                        </node>
-                        <node concept="2GrUjf" id="2Yoto85NVTI" role="2k6f33">
-                          <ref role="2Gs0qQ" node="2Yoto85NEgq" resolve="annotation" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="2Yoto85RrOE" role="3clFbw">
-              <node concept="2OqwBi" id="2Yoto85RrJh" role="2Oq$k0">
-                <node concept="1Q6Npb" id="2Yoto85RrBf" role="2Oq$k0" />
-                <node concept="2SmgA7" id="2Yoto85RrNT" role="2OqNvi">
-                  <node concept="chp4Y" id="2Yoto85RrOe" role="1dBWTz">
-                    <ref role="cht4Q" to="hqsm:3VwoHXNAdmh" resolve="IPattern" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3GX2aA" id="2Yoto85Rvwy" role="2OqNvi" />
             </node>
           </node>
         </node>
