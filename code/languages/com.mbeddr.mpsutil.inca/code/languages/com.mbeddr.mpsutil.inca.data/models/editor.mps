@@ -61,6 +61,10 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="3738029991950788349" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Named" flags="ng" index="Q6S24" />
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -152,6 +156,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -1105,9 +1110,40 @@
       <node concept="VPM3Z" id="hEU$PuE" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
+      <node concept="3F2HdR" id="4zPHinXDueU" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="uu1k:4zPHinXDu8W" resolve="annos" />
+        <node concept="l2Vlx" id="4zPHinXDueW" role="2czzBx" />
+        <node concept="VechU" id="4zPHinXF1cZ" role="3F10Kt">
+          <property role="Vb096" value="LIGHT_BLUE" />
+        </node>
+        <node concept="pkWqt" id="4zPHinXIM35" role="pqm2j">
+          <node concept="3clFbS" id="4zPHinXIM36" role="2VODD2">
+            <node concept="3clFbF" id="4zPHinXIMah" role="3cqZAp">
+              <node concept="3clFbC" id="4zPHinXJ5o8" role="3clFbG">
+                <node concept="3cmrfG" id="4zPHinXJ5Yy" role="3uHU7w">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="2OqwBi" id="4zPHinXIUVH" role="3uHU7B">
+                  <node concept="2OqwBi" id="4zPHinXIMJD" role="2Oq$k0">
+                    <node concept="pncrf" id="4zPHinXIMag" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="4zPHinXIPr7" role="2OqNvi">
+                      <ref role="3TtcxE" to="tpee:fzclF7Y" resolve="parameter" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="4zPHinXIZMg" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="6h60itPzYJ3" role="3EZMnx">
         <property role="3F0ifm" value="def" />
         <ref role="1k5W1q" to="3sc9:2CEi94dgHKA" resolve="KeyWord" />
+        <node concept="pVoyu" id="4zPHinXDv37" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="6h60itP$0l0" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -1352,6 +1388,27 @@
       </node>
     </node>
     <node concept="382kZG" id="5JQC2dmqeRI" role="lGtFl" />
+  </node>
+  <node concept="24kQdi" id="4zPHinXDu7o">
+    <property role="3GE5qa" value="annotations" />
+    <ref role="1XX52x" to="uu1k:4zPHinXDu7c" resolve="MonotonicLatticeDefinition" />
+    <node concept="3F0ifn" id="4zPHinXDu82" role="2wV5jI">
+      <property role="3F0ifm" value="monotonic" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4zPHinXDu8n">
+    <property role="3GE5qa" value="annotations" />
+    <ref role="1XX52x" to="uu1k:4zPHinXDu85" resolve="CommutativeLatticeDefinition" />
+    <node concept="3F0ifn" id="4zPHinXDu8p" role="2wV5jI">
+      <property role="3F0ifm" value="commutative" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4zPHinXDu8B">
+    <property role="3GE5qa" value="annotations" />
+    <ref role="1XX52x" to="uu1k:4zPHinXDu8t" resolve="AssociativeLatticeDefinition" />
+    <node concept="3F0ifn" id="4zPHinXDu8D" role="2wV5jI">
+      <property role="3F0ifm" value="associative" />
+    </node>
   </node>
 </model>
 

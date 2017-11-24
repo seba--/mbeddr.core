@@ -535,6 +535,13 @@
     <node concept="PrWs8" id="6h60itPzHnT" role="PrDN$">
       <ref role="PrY4T" node="7tOfV2_Eo$0" resolve="ILatticeDefinitionModuleContent" />
     </node>
+    <node concept="1TJgyj" id="4zPHinXDu8W" role="1TKVEi">
+      <property role="IQ2ns" value="5257307314798846524" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="annos" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4zPHinXDu6o" resolve="ILatticeDefinitionAnnotation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6h60itP$bP2">
     <property role="EcuMT" value="7225463921150311746" />
@@ -664,6 +671,41 @@
     <property role="3GE5qa" value="definition" />
     <property role="TrG5h" value="Lattice" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="PlHQZ" id="4zPHinXDu6o">
+    <property role="EcuMT" value="5257307314798846360" />
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="ILatticeDefinitionAnnotation" />
+  </node>
+  <node concept="1TIwiD" id="4zPHinXDu7c">
+    <property role="EcuMT" value="5257307314798846412" />
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="MonotonicLatticeDefinition" />
+    <property role="34LRSv" value="monotonic" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4zPHinXDu7d" role="PzmwI">
+      <ref role="PrY4T" node="4zPHinXDu6o" resolve="ILatticeDefinitionAnnotation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zPHinXDu85">
+    <property role="EcuMT" value="5257307314798846469" />
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="CommutativeLatticeDefinition" />
+    <property role="34LRSv" value="commutative" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4zPHinXDu86" role="PzmwI">
+      <ref role="PrY4T" node="4zPHinXDu6o" resolve="ILatticeDefinitionAnnotation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4zPHinXDu8t">
+    <property role="EcuMT" value="5257307314798846493" />
+    <property role="3GE5qa" value="annotations" />
+    <property role="TrG5h" value="AssociativeLatticeDefinition" />
+    <property role="34LRSv" value="associative" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4zPHinXDu8u" role="PzmwI">
+      <ref role="PrY4T" node="4zPHinXDu6o" resolve="ILatticeDefinitionAnnotation" />
+    </node>
   </node>
 </model>
 
