@@ -1289,5 +1289,20 @@
     <property role="3GE5qa" value="misc" />
     <property role="TrG5h" value="IContainsJavaExpression" />
   </node>
+  <node concept="1TIwiD" id="2jl89KEYIg_">
+    <property role="EcuMT" value="2654063410512847909" />
+    <property role="3GE5qa" value="usage" />
+    <property role="TrG5h" value="DisableJavaWarningAttribute" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="2jl89KEYJeM" role="lGtFl">
+      <property role="Hh88m" value="disableJavaWarning" />
+      <node concept="tn0Fv" id="2jl89KEYJeP" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+      <node concept="trNpa" id="2jl89KEYJeS" role="EQaZv">
+        <ref role="trN6q" node="Y78e7A6TUt" resolve="IIncaModule" />
+      </node>
+    </node>
+  </node>
 </model>
 
