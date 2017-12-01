@@ -315,6 +315,9 @@
     <property role="34LRSv" value="next" />
     <property role="R4oN_" value="next reference" />
     <ref role="1TJDcQ" node="2K9A72IyXjN" resolve="AbstractPathElement" />
+    <node concept="PrWs8" id="7Hdi_qc0u3j" role="PzmwI">
+      <ref role="PrY4T" node="7Hdi_qc0u2y" resolve="IVirtualPathElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7A0HCuGr2aH">
     <property role="EcuMT" value="8755198369437852333" />
@@ -323,6 +326,9 @@
     <property role="34LRSv" value="parent" />
     <property role="R4oN_" value="parent reference" />
     <ref role="1TJDcQ" node="2K9A72IyXjN" resolve="AbstractPathElement" />
+    <node concept="PrWs8" id="7Hdi_qc0u3m" role="PzmwI">
+      <ref role="PrY4T" node="7Hdi_qc0u2y" resolve="IVirtualPathElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2K9A72IyXjN">
     <property role="EcuMT" value="3173235022191383795" />
@@ -342,6 +348,9 @@
     <property role="34LRSv" value="prev" />
     <property role="R4oN_" value="previous reference" />
     <ref role="1TJDcQ" node="2K9A72IyXjN" resolve="AbstractPathElement" />
+    <node concept="PrWs8" id="7Hdi_qc0u3p" role="PzmwI">
+      <ref role="PrY4T" node="7Hdi_qc0u2y" resolve="IVirtualPathElement" />
+    </node>
   </node>
   <node concept="1TIwiD" id="360F32dey26">
     <property role="EcuMT" value="3567040229405237382" />
@@ -375,6 +384,14 @@
     <property role="3GE5qa" value="constraints" />
     <property role="TrG5h" value="IsDefinedPathElement" />
     <ref role="1TJDcQ" node="2K9A72IyXjN" resolve="AbstractPathElement" />
+    <node concept="PrWs8" id="7Hdi_qc0u3g" role="PzmwI">
+      <ref role="PrY4T" node="7Hdi_qc0u2y" resolve="IVirtualPathElement" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7Hdi_qc0u2y">
+    <property role="EcuMT" value="8884839375448432802" />
+    <property role="3GE5qa" value="constraints" />
+    <property role="TrG5h" value="IVirtualPathElement" />
   </node>
 </model>
 
