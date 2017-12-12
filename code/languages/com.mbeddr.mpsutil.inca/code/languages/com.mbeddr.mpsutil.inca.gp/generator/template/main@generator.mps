@@ -3729,6 +3729,7 @@
                     <node concept="3cpWs8" id="2x9xdhRBMF7" role="3cqZAp">
                       <node concept="3cpWsn" id="2x9xdhRBMFa" role="3cpWs9">
                         <property role="TrG5h" value="conceptConstraint" />
+                        <property role="3TUv4t" value="true" />
                         <node concept="3Tqbb2" id="2x9xdhRBMF5" role="1tU5fm">
                           <ref role="ehGHo" to="55iy:5Dmozv0zaht" resolve="GraphPatternConceptConstraint" />
                         </node>
@@ -3868,6 +3869,7 @@
                       <node concept="3cpWs8" id="2x9xdhRBSNE" role="3cqZAp">
                         <node concept="3cpWsn" id="2x9xdhRBSNH" role="3cpWs9">
                           <property role="TrG5h" value="temporaryVariable" />
+                          <property role="3TUv4t" value="true" />
                           <node concept="3Tqbb2" id="2x9xdhRBSNC" role="1tU5fm">
                             <ref role="ehGHo" to="hqsm:6L84cjtSlH$" resolve="TemporaryVariable" />
                           </node>

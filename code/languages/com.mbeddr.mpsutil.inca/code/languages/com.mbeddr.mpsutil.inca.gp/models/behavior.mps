@@ -1975,5 +1975,53 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="3gA3b2A4WTG">
+    <property role="3GE5qa" value="constraints.element.gen" />
+    <ref role="13h7C2" to="55iy:2WpF3SwEcqX" resolve="GenIsDefinedPathElement" />
+    <node concept="13i0hz" id="3gA3b2A4X1$" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getScopeProviderConcept" />
+      <ref role="13i0hy" to="gcg1:5Os6JboGgK9" resolve="getScopeProviderConcept" />
+      <node concept="37vLTG" id="3gA3b2A4X1_" role="3clF46">
+        <property role="TrG5h" value="contextBody" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3Tqbb2" id="3gA3b2A4X1A" role="1tU5fm">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdvt" resolve="IPatternBody" />
+        </node>
+        <node concept="2AHcQZ" id="3gA3b2A4X1B" role="2AJF6D">
+          <ref role="2AI5Lk" to="mhfm:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3gA3b2A4X1C" role="1B3o_S" />
+      <node concept="3clFbS" id="3gA3b2A4X1D" role="3clF47">
+        <node concept="3cpWs6" id="3gA3b2A4X1E" role="3cqZAp">
+          <node concept="2OqwBi" id="3gA3b2A4X1F" role="3cqZAk">
+            <node concept="1PxgMI" id="3gA3b2A4X1G" role="2Oq$k0">
+              <node concept="chp4Y" id="3gA3b2A4X1H" role="3oSUPX">
+                <ref role="cht4Q" to="hqsm:3p0ky8Li8px" resolve="IPathElementScopeProvider" />
+              </node>
+              <node concept="2OqwBi" id="3gA3b2A4X1I" role="1m5AlR">
+                <node concept="13iPFW" id="3gA3b2A4X1J" role="2Oq$k0" />
+                <node concept="1mfA1w" id="3gA3b2A4X1K" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3gA3b2A4X1L" role="2OqNvi">
+              <ref role="37wK5l" to="gcg1:5Os6JboGgK9" resolve="getScopeProviderConcept" />
+              <node concept="37vLTw" id="3gA3b2A4X1M" role="37wK5m">
+                <ref role="3cqZAo" node="3gA3b2A4X1_" resolve="contextBody" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3gA3b2A4X1N" role="3clF45">
+        <ref role="ehGHo" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="3gA3b2A4WTH" role="13h7CW">
+      <node concept="3clFbS" id="3gA3b2A4WTI" role="2VODD2" />
+    </node>
+  </node>
 </model>
 
